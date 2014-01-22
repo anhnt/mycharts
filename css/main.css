@@ -1,0 +1,99 @@
+.form-item-margin{
+	margin-left: 20px;
+}
+
+.form-btn{
+	margin-top: 0;
+}
+.form-margin-top{
+	margin-top: 5px;
+}
+.tab-content{
+	/*height: auto;*/
+	overflow: hidden;
+}
+#table1, #table2{
+	font-size: 11px;
+}
+.dataTables_filter input{
+	width: 75px;
+}
+#container{
+	min-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 10px;
+}
+#container .row-fluid{
+	text-align: left;
+}
+.chart{
+	height: 450px;
+	margin-top: 50px;
+	text-align: center;
+}
+.chart[data-chart=share-of-return-users]{
+	height: 350px;
+}
+.chart[data-chart=queries-and-click],
+.chart[data-chart=clicks-share],
+.chart[data-chart=user-retention-chart]{
+	height: 550px;
+}
+.chart:first-child{
+	margin-top: 0;
+}
+ul.navi{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+ul.navi li{
+	display: inline-block;
+	margin-left: 10px;
+}
+ul.navi li:first-child{
+	margin-left: 0;
+}
+ul.navi li.active a{
+	text-decoration: underline;
+}
+div.loading{
+	text-align: left;
+	width: 24px;
+	height: 30px;
+	position: relative;
+	display: inline-block;
+}
+div.loading img{
+	margin-top: 6px;
+}
+div.scroll-top{
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+}
+div.scroll-top a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	opacity: 0.2;
+	filter: alpha(opacity=0.2);
+}
+div.scroll-top a:hover{
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+#mapview{
+	height: 700px;
+}
+#mapview img{
+	max-width: none;
+}
+#stat-locations h6{
+	text-align: center;
+}
+hr{
+	margin: 2px 0;
+}

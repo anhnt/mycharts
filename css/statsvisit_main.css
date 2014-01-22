@@ -1,0 +1,29 @@
+.form-item-margin{
+	margin-left: 20px;
+}
+
+.form-btn{
+	margin-top: 0;
+}
+.form-margin-top{
+	margin-top: 5px;
+}
+.tab-content{
+	/*height: auto;*/
+	overflow: hidden;
+}
+#table1, #table2{
+	font-size: 11px;
+}
+.dataTables_filter input{
+	width: 75px;
+}
+#container{
+	min-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 10px;
+}
+#container .row-fluid{
+	text-align: left;
+}
